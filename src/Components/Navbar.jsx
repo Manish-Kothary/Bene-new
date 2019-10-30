@@ -10,7 +10,7 @@ export default class Navbar extends Component {
             class="nav-wrapper navbar-fixed"
             style={{
               paddingTop: "1.5%",
-              paddingLeft: "1.5%",
+              paddingLeft: "1%",
               paddingRight: "1.5%"
             }}
           >
