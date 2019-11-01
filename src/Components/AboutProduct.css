@@ -140,6 +140,9 @@
   }
 }
 @media only screen and (min-width: 1024px) {
+  #aboutProductContainer {
+    height: 108vh !important;
+  }
   #aboutProductHeading {
     padding-bottom: 1.8%;
   }
@@ -164,6 +167,19 @@
     letter-spacing: 0.1em;
     padding-top: 23%;
     padding-left: 7%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #aboutProductContainer {
+    height: 120vh !important;
+  }
+  #hempExtractCol {
+    margin-left: 51.5%;
+    margin-top: 4%;
+  }
+  #hempExtractPara {
+    padding-top: 18%;
+    padding-left: 4%;
   }
 }
 @media only screen and (min-width: 1440px) {
@@ -194,5 +210,8 @@
     letter-spacing: 0.1em;
     padding-top: 19%;
     padding-left: 1%;
+  }
+  #infoHeading {
+    margin-top: 13% !important;
   }
 }
