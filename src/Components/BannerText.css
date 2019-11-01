@@ -124,6 +124,11 @@
     padding: 1.5% 8% 6.5% !important;
   }
 }
+@media only screen and (min-width: 1308px) {
+  #bannerHeading {
+    padding-top: 10.5%;
+  }
+}
 @media only screen and (min-width: 1440px) {
   #bannerHeading {
     padding-top: 15.5%;
