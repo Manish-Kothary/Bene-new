@@ -63,3 +63,14 @@
     margin-left: 3.5%;
   }
 }
+@media only screen and (min-width: 375px) {
+  #beneSpan {
+    padding-left: 5%;
+  }
+  #yourSpan {
+    padding-left: 11%;
+  }
+  #navSideBtn {
+    padding-left: 1%;
+  }
+}

@@ -55,14 +55,7 @@ export default class Info extends Component {
                       In our own quest to enhance total balance and reduce
                       stress, we
                     </p>
-                    <p
-                      style={{
-                        fontFamily: "montserrat",
-                        fontSize: "139%",
-                        marginTop: "0",
-                        marginBottom: "0"
-                      }}
-                    >
+                    <p id="secondPara">
                       set out to understand, what is CBD. We met manufacturers
                       from
                     </p>
