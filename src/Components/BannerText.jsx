@@ -28,10 +28,8 @@ export default class BannerTex extends Component {
               <div className="col s0 m1"></div>
               <div className="col s12 m8" style={{ fontFamily: "Montserrat" }}>
                 <p id="bannerSubHeading">
-                  In our own quest to enhance total balance and
-                </p>
-                <p id="bannerSubHeading2">
-                  reduce stress, we set out to understand CBS
+                  In our own quest to enhance total balance and reduce stress,
+                  we set out to understand CBS
                 </p>
               </div>
             </div>

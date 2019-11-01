@@ -26,3 +26,26 @@
     font-size: 212% !important;
   }
 }
+@media only screen and (min-width: 1024px) {
+  #navLogo img {
+    width: 100% !important;
+  }
+  #frontBannerContainer {
+    padding-top: 4% !important;
+  }
+  #navLogo {
+    padding-top: 10% !important;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  #navLogo img {
+    width: 100% !important;
+  }
+  #frontBannerContainer {
+    padding-top: 1% !important;
+  }
+  #navLogo {
+    padding-top: 7% !important;
+  }
+}

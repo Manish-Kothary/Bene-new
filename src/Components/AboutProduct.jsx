@@ -57,18 +57,7 @@ export default class AboutProduct extends Component {
             >
               <div className="col s0 m5"></div>
               <div className="col s12 m7" id="hempExtractCol">
-                <p
-                  style={{
-                    color: "#bf985c",
-                    fontSize: "260%",
-                    fontFamily: "times new roman",
-                    letterSpacing: "0.1em",
-                    paddingTop: "31%",
-                    paddingLeft: "1%"
-                  }}
-                >
-                  organically grown hemp extract
-                </p>
+                <p id="hempExtractPara">organically grown hemp extract</p>
               </div>
             </div>
           </div>

@@ -25,7 +25,7 @@ export default class Info extends Component {
                     fontWeight: "549"
                   }}
                 >
-                  organically grown
+                  Organically grown
                 </h3>
                 <h3
                   style={{
@@ -47,14 +47,8 @@ export default class Info extends Component {
                   <div className="col s12">
                     <p id="firstPara">
                       In our own quest to enhance total balance and reduce
-                      stress, we
-                    </p>
-                    <p id="secondPara">
-                      set out to understand, what is CBD. We met manufacturers
-                      from
-                    </p>
-                    <p id="thirdPara">
-                      across the world. We spoke with doctors
+                      stress, we set out to understand, what is CBD. We met
+                      manufacturers from across the world. We spoke with doctors
                     </p>
                   </div>
                 </div>

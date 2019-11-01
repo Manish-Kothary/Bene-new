@@ -39,6 +39,14 @@
   padding-right: 7%;
   font-family: "montserrat";
 }
+#hempExtractPara {
+  color: #bf985c;
+  font-size: 260%;
+  font-family: "times new roman";
+  letter-spacing: 0.1em;
+  padding-top: 31%;
+  padding-left: 1%;
+}
 @media only screen and (min-width: 320px) {
   #aboutProductContainer {
     margin-top: 8%;
@@ -129,5 +137,62 @@
   }
   #hempExtractCol {
     margin-left: 48.5%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #aboutProductHeading {
+    padding-bottom: 1.8%;
+  }
+  #beneMeans {
+    font-size: 189% !important;
+    padding-left: 9% !important;
+  }
+  #beneMeans2 {
+    font-size: 189% !important;
+    padding-left: 9% !important;
+  }
+  #paraContainer {
+    padding-top: 3%;
+  }
+  #hempExtractCol {
+    margin-top: 3%;
+  }
+  #hempExtractPara {
+    color: #bf985c;
+    font-size: 260%;
+    font-family: "times new roman";
+    letter-spacing: 0.1em;
+    padding-top: 23%;
+    padding-left: 7%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #beneMeans {
+    font-size: 216% !important;
+    padding-left: 13% !important;
+  }
+  #beneMeans2 {
+    font-size: 216% !important;
+    padding-left: 13% !important;
+  }
+  #paraContainer p {
+    font-size: 156%;
+  }
+  #readMoreAbout {
+    padding-right: 9%;
+  }
+  #aboutProductContainer {
+    height: 120vh !important;
+  }
+  #hempExtractCol {
+    margin-left: 51%;
+  }
+  #hempExtractPara {
+    color: #bf985c;
+    font-size: 245%;
+    font-family: "times new roman";
+    letter-spacing: 0.1em;
+    padding-top: 19%;
+    padding-left: 1%;
   }
 }
