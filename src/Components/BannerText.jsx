@@ -37,7 +37,7 @@ export default class BannerTex extends Component {
             </div>
             <div className="row" id="seeProductsBtn">
               <div className="col s0 m2"></div>
-              <div className="col s12 m4" style={{ paddingLeft: "2.8%" }}>
+              <div className="col s12 m10" style={{ paddingLeft: "2.8%" }}>
                 <a
                   class="waves-effect waves-light btn"
                   style={{

@@ -9,8 +9,8 @@ export default class AboutProduct extends Component {
         <div className="row">
           <div className="col s12">
             <div className="row" style={{ marginTop: "5%" }}>
-              <div className="col s0 m3"></div>
-              <div className="col s12 m9" id="aboutProductHeading">
+              <div className="col s0 m0"></div>
+              <div className="col s12 m12" id="aboutProductHeading">
                 <h2 id="beneMeans">
                   BENE MEANS{" "}
                   <span style={{ fontWeight: "bold", fontSize: "111%" }}>
@@ -26,63 +26,24 @@ export default class AboutProduct extends Component {
               style={{ marginTop: "3.5%", paddingLeft: "5%" }}
             >
               <div className="col s0 m7"></div>
-              <div
-                className="col s12 m5 right-align"
-                style={{
-                  paddingRight: "6.5%",
-                  textAlign: "justify",
-                  textJustify: "inter-word"
-                }}
-              >
+              <div className="col s12 m5 right-align" id="paraContainer">
                 <p
                   style={{
                     color: "#bf985c",
                     fontSize: "140%",
-                    fontFamily: "montserrat"
+                    fontFamily: "montserrat",
+                    marginBottom: "0"
                   }}
                 >
                   Today we're confident that we're providing you with the
-                </p>
-                <p
-                  style={{
-                    color: "#bf985c",
-                    fontSize: "140%",
-                    fontFamily: "montserrat"
-                  }}
-                >
                   highest quality CBS you can find. Our product line is a{" "}
-                </p>
-                <p
-                  style={{
-                    color: "#bf985c",
-                    fontSize: "140%",
-                    fontFamily: "montserrat"
-                  }}
-                >
                   collection, to suit a wide range of tastes and needs. We're
-                </p>
-                <p
-                  style={{
-                    color: "#bf985c",
-                    fontSize: "140%",
-                    fontFamily: "montserrat"
-                  }}
-                >
                   dedicated to helping you get the products that suit you
                 </p>
               </div>
             </div>
             <div className="row">
-              <div
-                className="col s12 right-align"
-                style={{
-                  textDecoration: "underline",
-                  color: "#bf985c",
-                  fontSize: "140%",
-                  paddingRight: "7%",
-                  fontFamily: "montserrat"
-                }}
-              >
+              <div className="col s12 right-align" id="readMoreAbout">
                 {" "}
                 READ MORE
               </div>

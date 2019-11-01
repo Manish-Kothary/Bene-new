@@ -14,3 +14,15 @@
     font-size: 149% !important;
   }
 }
+@media only screen and (min-width: 768px) {
+  #navLogo {
+    padding-top: 2%;
+  }
+  #navLogo img {
+    width: 100% !important;
+  }
+  #navSideBtn {
+    padding-top: 6%;
+    font-size: 212% !important;
+  }
+}
