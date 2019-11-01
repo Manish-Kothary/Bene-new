@@ -5,3 +5,12 @@
 #main-nav i {
   font-size: 200%;
 }
+@media only screen and (min-width: 320px) {
+  #navLogo {
+    padding-top: 16%;
+  }
+  #navSideBtn {
+    padding-top: 21%;
+    font-size: 149% !important;
+  }
+}

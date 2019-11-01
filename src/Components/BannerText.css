@@ -1,0 +1,69 @@
+#bannerHeading {
+  padding-top: 8.5%;
+}
+#beneSpan {
+  font-size: 190%;
+}
+#fitsSpan {
+  font-size: 150%;
+}
+#yourSpan {
+  font-size: 150%;
+}
+#lifeSpan {
+  font-size: 150%;
+}
+#bannerSubHeading {
+  color: rgb(241, 196, 130);
+  font-size: 130%;
+  font-family: "Montserrat";
+}
+#bannerSubHeading2 {
+  color: rgb(241, 196, 130);
+  font-size: 130%;
+  font-family: "Montserrat";
+  word-spacing: 0.2em;
+}
+#seeProductsBtn {
+  padding-top: 1%;
+}
+#subHeading2Container {
+  font-family: "Montserrat";
+  padding-left: "6%";
+}
+@media only screen and (min-width: 320px) {
+  #bannerHeading {
+    padding-top: 35.5%;
+  }
+  #beneSpan {
+    font-size: 126%;
+  }
+  #fitsSpan {
+    font-size: 100%;
+  }
+  #yourSpan {
+    font-size: 100%;
+    padding-left: 20%;
+  }
+  #lifeSpan {
+    font-size: 100%;
+  }
+  #bannerSubHeading {
+    font-size: 179%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  #bannerSubHeading2 {
+    font-size: 179%;
+    font-family: "Montserrat";
+    margin-top: 0;
+    text-align: center;
+  }
+  #seeProductsBtn {
+    padding-top: 10%;
+    text-align: center;
+  }
+  #subHeading2Container {
+    text-align: center;
+  }
+}

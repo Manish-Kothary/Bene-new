@@ -1,33 +1,16 @@
 import React, { Component } from "react";
 import woman from "../woman.png";
 import extract from "../extract.png";
+import "./AboutProduct.css";
 export default class AboutProduct extends Component {
   render() {
     return (
-      <div
-        className="container-fluid"
-        style={{
-          marginTop: "8%",
-          marginBottom: "8%",
-          backgroundColor: "#242219",
-          backgroundImage: `url(${woman})`,
-          height: "120vh",
-          backgroundSize: "38% 100%",
-          backgroundRepeat: "no-repeat repeat"
-        }}
-      >
+      <div id="aboutProductContainer" className="container-fluid">
         <div className="row">
           <div className="col s12">
             <div className="row" style={{ marginTop: "5%" }}>
               <div className="col s0 m3"></div>
-              <div
-                className="col s12 m9"
-                style={{
-                  backgroundImage: "linear-gradient(to right,#242219,#62605c)",
-                  paddingLeft: "5.6%",
-                  paddingBottom: "0.8%"
-                }}
-              >
+              <div className="col s12 m9" id="aboutProductHeading">
                 <h2 style={{ color: "#bf985c", wordSpacing: "1em" }}>
                   BENE MEANS{" "}
                   <span style={{ fontWeight: "bold", fontSize: "120%" }}>

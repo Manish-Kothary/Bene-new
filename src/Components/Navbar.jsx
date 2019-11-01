@@ -44,11 +44,18 @@ export default class Navbar extends Component {
                 <a href="sass.html">Bundles</a>
               </li>
             </ul>
-            <a href="#!" class="brand-logo center">
+            <a href="#!" class="brand-logo center" id="navLogo">
               <img src={logo1} alt="" srcset="" style={{ width: "68%" }} />
             </a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-              <i class="material-icons">menu</i>
+            <a
+              href="#"
+              data-target="mobile-demo"
+              class="sidenav-trigger"
+              id="navSideBtn"
+            >
+              <i class="material-icons" style={{ color: "rgb(241, 196, 130)" }}>
+                menu
+              </i>
             </a>
             <ul class="right hide-on-med-and-down">
               <li>

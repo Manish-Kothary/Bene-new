@@ -1,0 +1,28 @@
+#aboutProductContainer {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  background-color: #242219;
+  background-image: url("../woman.png");
+  height: 120vh;
+  background-size: 38% 100%;
+  background-repeat: no-repeat repeat;
+}
+#aboutProductHeading {
+  background-image: linear-gradient(to right, #242219, #62605c);
+  padding-left: 5.6%;
+  padding-bottom: 0.8%;
+}
+
+@media only screen and (min-width: 320px) {
+  #aboutProductContainer {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    background-color: #242219;
+    background-image: none;
+    height: 120vh;
+  }
+  #aboutProductHeading {
+    padding-left: 0%;
+    background-image: none;
+  }
+}

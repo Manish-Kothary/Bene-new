@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import bottle from "./bottle.png";
+import "./Info.css";
 export default class Info extends Component {
   render() {
     return (
@@ -11,18 +12,10 @@ export default class Info extends Component {
           <div className="col s12">
             <div className="row">
               <div className="col s0 m"></div>
-              <div
-                className="col s12 m4"
-                style={{ paddingRight: "2%", textAlign: "right" }}
-              >
-                <h1 style={{ fontSize: "1250%", fontFamily: "montserrat" }}>
-                  bene
-                </h1>
+              <div className="col s4 m4" id="infoHeadingCol">
+                <h1 id="infoHeading">bene</h1>
               </div>
-              <div
-                className="col s12 m7"
-                style={{ paddingLeft: "0", paddingTop: "2.3%" }}
-              >
+              <div className="col s7 m7" id="infoSideMainHeading">
                 <h3
                   style={{
                     color: "#d2af78",
@@ -40,7 +33,8 @@ export default class Info extends Component {
                     fontSize: "500%",
                     fontFamily: "Times new roman",
                     marginTop: "0",
-                    fontWeight: "549"
+                    fontWeight: "549",
+                    paddingTop: "0"
                   }}
                 >
                   hemp extract
@@ -49,33 +43,41 @@ export default class Info extends Component {
             </div>
             <div className="row">
               <div className="col s12 m6">
-                <div
-                  className="row"
-                  style={{ paddingLeft: "14.6%", paddingTop: "15%" }}
-                >
+                <div className="row" id="infoPara">
                   <div className="col s12">
-                    <p style={{ fontFamily: "montserrat", fontSize: "139%" }}>
+                    <p
+                      style={{
+                        fontFamily: "montserrat",
+                        fontSize: "139%",
+                        marginBottom: "0"
+                      }}
+                    >
                       In our own quest to enhance total balance and reduce
                       stress, we
                     </p>
-                    <p style={{ fontFamily: "montserrat", fontSize: "139%" }}>
+                    <p
+                      style={{
+                        fontFamily: "montserrat",
+                        fontSize: "139%",
+                        marginTop: "0",
+                        marginBottom: "0"
+                      }}
+                    >
                       set out to understand, what is CBD. We met manufacturers
                       from
                     </p>
-                    <p style={{ fontFamily: "montserrat", fontSize: "139%" }}>
+                    <p
+                      style={{
+                        fontFamily: "montserrat",
+                        fontSize: "139%",
+                        marginTop: "0"
+                      }}
+                    >
                       across the world. We spoke with doctors
                     </p>
                   </div>
                 </div>
-                <div
-                  className="row"
-                  style={{
-                    marginTop: "10%",
-                    paddingLeft: "78.5%",
-                    fontFamily: "montserrat",
-                    fontSize: "110%"
-                  }}
-                >
+                <div className="row" id="infoReadMore">
                   <div
                     className="col s12"
                     style={{ textDecoration: "underline" }}
@@ -85,7 +87,7 @@ export default class Info extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col s12 m6">
+              <div className="col s12 m6" id="infoImgContainer">
                 <img src={bottle} alt="" srcset="" style={{ width: "85%" }} />
               </div>
             </div>
