@@ -11,16 +11,14 @@ export default class AboutProduct extends Component {
             <div className="row" style={{ marginTop: "5%" }}>
               <div className="col s0 m3"></div>
               <div className="col s12 m9" id="aboutProductHeading">
-                <h2 style={{ color: "#bf985c", wordSpacing: "1em" }}>
+                <h2 id="beneMeans">
                   BENE MEANS{" "}
-                  <span style={{ fontWeight: "bold", fontSize: "120%" }}>
+                  <span style={{ fontWeight: "bold", fontSize: "111%" }}>
                     WELLNESS{" "}
                   </span>
                   IN ITALIAN
                 </h2>
-                <h2 style={{ color: "#bf985c", wordSpacing: "0.9em" }}>
-                  AND THAT'S WHAT WE'RE ALL ABOUT
-                </h2>
+                <h2 id="beneMeans2">AND THAT'S WHAT WE'RE ALL ABOUT</h2>
               </div>
             </div>
             <div
@@ -91,18 +89,13 @@ export default class AboutProduct extends Component {
             </div>
             <div
               className="row"
-              style={{ paddingRight: "6.9%", marginTop: "4%" }}
+              style={{
+                paddingRight: "6.9%",
+                marginTop: "4%"
+              }}
             >
               <div className="col s0 m5"></div>
-              <div
-                className="col s12 m7"
-                style={{
-                  backgroundImage: `url(${extract})`,
-                  backgroundRepeat: "no-repeat",
-                  backgroundPosition: "right",
-                  height: "44vh"
-                }}
-              >
+              <div className="col s12 m7" id="hempExtractCol">
                 <p
                   style={{
                     color: "#bf985c",

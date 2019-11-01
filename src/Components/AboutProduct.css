@@ -1,5 +1,6 @@
 #aboutProductContainer {
   margin-top: 8%;
+  padding-top: 18%;
   margin-bottom: 8%;
   background-color: #242219;
   background-image: url("../woman.png");
@@ -11,6 +12,20 @@
   background-image: linear-gradient(to right, #242219, #62605c);
   padding-left: 5.6%;
   padding-bottom: 0.8%;
+}
+#beneMeans {
+  color: #bf985c;
+  word-spacing: 1em;
+}
+#beneMeans2 {
+  color: #bf985c;
+  word-spacing: 0.9em;
+}
+#hempExtractCol {
+  background-image: url("../extract.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 44vh;
 }
 
 @media only screen and (min-width: 320px) {
@@ -24,5 +39,27 @@
   #aboutProductHeading {
     padding-left: 0%;
     background-image: none;
+  }
+  #beneMeans {
+    color: #bf985c;
+    word-spacing: normal;
+    font-size: 170%;
+    padding-left: 4%;
+  }
+  #beneMeans2 {
+    color: #bf985c;
+    word-spacing: normal;
+    font-size: 170%;
+    padding-left: 4%;
+  }
+  #aboutProductContainer {
+    height: 107vh;
+  }
+  #hempExtractCol {
+    margin-top: 5%;
+    height: 35vh;
+    text-align: center;
+    background-position: center;
+    margin-left: 3.5%;
   }
 }
