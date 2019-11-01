@@ -1,3 +1,23 @@
 #frontBannerContainer {
   padding-top: 10%;
+  background-image: url("../banner.png");
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+@media only screen and (min-width: 320px) {
+  #frontBannerContainer {
+    height: 75vh !important;
+  }
+}
+@media only screen and (min-width: 375px) {
+  #frontBannerContainer {
+    height: 75vh !important;
+  }
+}
+@media only screen and (min-width: 425px) {
+  #frontBannerContainer {
+    height: 80vh !important;
+  }
 }

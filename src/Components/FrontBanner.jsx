@@ -6,17 +6,7 @@ import "./FrontBanner.css";
 export default class FrontBanner extends Component {
   render() {
     return (
-      <div
-        className="container-fluid"
-        style={{
-          backgroundImage: `url(${banner})`,
-          color: "white",
-          height: "100vh",
-          width: "100vw",
-          backgroundSize: "cover"
-        }}
-        id="frontBannerContainer"
-      >
+      <div className="container-fluid" id="frontBannerContainer">
         <Navbar></Navbar>
         <BannerText />
       </div>

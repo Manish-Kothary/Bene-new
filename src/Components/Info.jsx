@@ -45,13 +45,7 @@ export default class Info extends Component {
               <div className="col s12 m6">
                 <div className="row" id="infoPara">
                   <div className="col s12">
-                    <p
-                      style={{
-                        fontFamily: "montserrat",
-                        fontSize: "139%",
-                        marginBottom: "0"
-                      }}
-                    >
+                    <p id="firstPara">
                       In our own quest to enhance total balance and reduce
                       stress, we
                     </p>
@@ -59,13 +53,7 @@ export default class Info extends Component {
                       set out to understand, what is CBD. We met manufacturers
                       from
                     </p>
-                    <p
-                      style={{
-                        fontFamily: "montserrat",
-                        fontSize: "139%",
-                        marginTop: "0"
-                      }}
-                    >
+                    <p id="thirdPara">
                       across the world. We spoke with doctors
                     </p>
                   </div>

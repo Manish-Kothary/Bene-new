@@ -67,3 +67,11 @@
     text-align: center;
   }
 }
+@media only screen and (min-width: 425px) {
+  #beneSpan {
+    padding-left: 11% !important;
+  }
+  #yourSpan {
+    padding-left: 10% !important;
+  }
+}
