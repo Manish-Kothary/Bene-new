@@ -140,3 +140,24 @@
     padding-left: 27% !important;
   }
 }
+@media only screen and (min-width: 1855px) {
+  #bannerHeading {
+    padding-top: 9.5%;
+  }
+  #beneSpan {
+    padding-left: 48% !important;
+  }
+  #yourSpan {
+    padding-left: 28% !important;
+  }
+  #bannerSubHeading {
+    font-size: 180%;
+  }
+  #seeProductsBtn {
+    padding-left: 26% !important;
+    padding-top: 5%;
+  }
+  #seeProductsBtn a {
+    padding: 1.5% 8% 4.5% !important;
+  }
+}

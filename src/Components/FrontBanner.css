@@ -21,3 +21,8 @@
     height: 80vh !important;
   }
 }
+@media only screen and (min-width: 1855px) {
+  #frontBannerContainer {
+    height: 100vh !important;
+  }
+}

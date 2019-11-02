@@ -7,7 +7,10 @@ import Info from "./Components/Info";
 import AboutProduct from "./Components/AboutProduct";
 function App() {
   return (
-    <div className="container-fluid" style={{ overflowX: "hidden" }}>
+    <div
+      className="container-fluid"
+      style={{ overflowX: "hidden", overflowY: "hidden" }}
+    >
       <FrontBanner />
       <Info />
       <AboutProduct />

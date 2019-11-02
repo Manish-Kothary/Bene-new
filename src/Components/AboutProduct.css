@@ -215,3 +215,45 @@
     margin-top: 13% !important;
   }
 }
+@media only screen and (min-width: 1855px) {
+  #beneMeans {
+    font-size: 300% !important;
+    padding-left: 10% !important;
+  }
+  #beneMeans2 {
+    font-size: 300% !important;
+    padding-left: 10% !important;
+  }
+  #paraContainer {
+    padding-top: 1%;
+  }
+  #paraContainer p {
+    font-size: 156%;
+  }
+  #aboutProductHeading {
+    padding-bottom: 1.5%;
+    padding-top: 1%;
+  }
+  #readMoreAbout {
+    padding-right: 9.5%;
+  }
+  #aboutProductContainer {
+    height: 120vh !important;
+    padding-top: 3%;
+  }
+  #hempExtractCol {
+    margin-left: 52.5%;
+    margin-top: 0;
+  }
+  #hempExtractPara {
+    color: #bf985c;
+    font-size: 245%;
+    font-family: "times new roman";
+    letter-spacing: 0.1em;
+    padding-top: 10.5%;
+    padding-left: 1%;
+  }
+  #infoHeading {
+    margin-top: 13% !important;
+  }
+}
